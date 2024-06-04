@@ -1,0 +1,185 @@
+.home-wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-container {
+  background-image: url('https://www.esri.ca/content/distributor-sites/esri-ca/en-ca/home/geospatial-thinking/stories/agriculture/_jcr_content/par/grid_container_copy__742547375/gc-par/columnsystem/wpar/image.img.jpg/1630824034880.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.menu-bar {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-bar .logo {
+  height: 50px; /* Adjust the height as needed */
+  margin-right: 20px; /* Adjust margin as needed */
+}
+
+.menu-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.menu-bar ul li {
+  margin-right: 30px;
+  
+}
+
+.menu-bar ul li:last-child {
+  margin-right: 0;
+}
+
+.menu-bar ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.menu-bar ul li a:hover {
+  background-color: #007bff;
+  color: black;
+  padding: 10px;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #0e0d0d;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.logo-text {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.oval-button {
+  border-radius: 50px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: #007bff;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.oval-button:hover {
+  background-color: #0056b3;
+}
+
+.content-box {
+  padding: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.flex-item {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  align-items: center;
+  flex: 1;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.flex-item p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.footer {
+  height: fit-content;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  margin-top: auto; /* Ensure footer stays at the bottom */
+  display: flex;
+  justify-content: center; /* Center contents horizontally */
+  align-items: center;
+  margin-top: 40px;
+   /* Align contents vertically */
+}
+
+.footer-section {
+  
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-left: 600px;
+  align-items: center;
+
+}
+
+.footer .follow-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the icons horizontally */
+}
+
+.footer .follow-us p {
+  margin: 0;
+  margin-bottom: 10px;
+  font-weight: bold;
+  align-items: center;
+}
+
+.footer .icons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center; /* Center icons horizontally */
+}
+
+.footer .icons .fa {
+  color: white;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.footer .icons .fa:hover {
+  color: #007bff;
+}
+.footer-section .logo {
+  margin-right: 100px;
+   /* Adjust margin as needed */
+}
+
